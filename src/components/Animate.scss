@@ -1,0 +1,35 @@
+.animate__container {
+  display: flex;
+  overflow: hidden;
+  margin: 0;
+  list-style: none;
+  gap: 15px;
+  padding: 15px;
+  padding-left: 0;
+  border-radius: 50px;
+  .item {
+    background: transparent;
+    height: 30px;
+    width: 30px;
+    color: #121212;
+    transition: color .1s ease-in;
+  }
+
+  .Fa-In:hover {
+    color: #b32e87;
+  }
+  .Fa-Li:hover {
+    color: #1773ea;
+  }
+  .Fa-Tw:hover {
+    color: #1c9cea;
+  }
+  .Fa-Gi:hover {
+    color: #fff;
+    background-color:#121212;
+    border-radius: 50%;
+  }
+  .Fa-Gm:hover {
+    color: #d93025;
+  }
+}

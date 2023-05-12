@@ -1,0 +1,62 @@
+
+.app__loading {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: var(--teal);
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  transition: transform 0.75s 0.75s ease-in-out, box-shadow 1s 0.75s ease-in;
+  box-shadow: 0 -10rem var(--black);
+}
+
+.app__loading.loaded {
+  box-shadow: 0 10rem var(--black);
+  transform: translateY(100%);
+}
+
+.app__loading .app__loading-img {
+  position: relative;
+  width: 6vw;
+  min-width: 100px;
+  min-height: 100px;
+  height: 6vw;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s 0.25s;
+  }
+  
+  .app__loading.loaded .app__loading-img {
+    opacity: 0;
+  }
+  
+  .app__loading-img img {
+    height: 60%;
+    // fill: var(--lightblue);
+}
+
+.app__loading-img::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  animation: load 1s infinite;
+}
+
+@keyframes load {
+  from {
+    transform: scale(1);
+      opacity: 1;
+  }
+
+  to {
+    transform: scale(1.5);
+      opacity: 0;
+  }
+}

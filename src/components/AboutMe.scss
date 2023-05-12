@@ -1,0 +1,15 @@
+.aboutme__container>p {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 25px;
+    font-family: 'Indie Flower';
+    color: #001e6c
+}
+
+@media screen and (max-width: 700px) {
+    .aboutme__container>p {
+        font-size: 15px;
+        font-family: 'Indie Flower';
+        color: #001e6c
+    }
+}

@@ -1,0 +1,18 @@
+$header: 100px;
+
+.herosection__container {
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding: 0 5rem;
+}
+
+
+@media screen and (max-width: 700px) {
+  .herosection__container {
+    height: calc(95vh - 140px);
+    padding: 2rem;
+  }
+}
