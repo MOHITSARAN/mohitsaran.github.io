@@ -80,7 +80,7 @@ export const workDetails = [
 			tech: "HTML, CSS, JavaScript",
 			color: "#fff",
 			url: "",
-			code: "https://github.com/MOHITSARAN/Chatapp-with-Node.js-express.js-socket.io",
+			code: "https://github.com/MOHITSARAN/travelwon",
 		},
 	},
 ];
