@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.09052363.css",
+    "main.js": "/static/js/main.ae391811.js",
+    "static/js/787.36387de8.chunk.js": "/static/js/787.36387de8.chunk.js",
+    "static/media/Mohit.pdf": "/static/media/Mohit.8b33ef3d7bf09d88ece0.pdf",
+    "static/media/logo.png": "/static/media/logo.ef3c4148bb980d97d88c.png",
+    "index.html": "/index.html",
+    "main.09052363.css.map": "/static/css/main.09052363.css.map",
+    "main.ae391811.js.map": "/static/js/main.ae391811.js.map",
+    "787.36387de8.chunk.js.map": "/static/js/787.36387de8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09052363.css",
+    "static/js/main.ae391811.js"
+  ]
+}
