@@ -76,7 +76,7 @@ export const workDetails = [
 		content: {
 			name: "TravelWon",
 			description:
-				"TThis is a static website showcasing various travel destinations around the world. It provides information about popular tourist spots, attractions, and recommendations for travelers.",
+				"This is a static website showcasing various travel destinations around the world. It provides information about popular tourist spots, attractions, and recommendations for travelers.",
 			tech: "HTML, CSS, JavaScript",
 			color: "#fff",
 			url: "",
